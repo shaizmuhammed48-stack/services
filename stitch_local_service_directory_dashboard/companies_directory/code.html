@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Kerala Services Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error-subtle": "#FEF2F2", "surface-container": "#ebedff", "on-primary": "#ffffff", "surface-container-low": "#F1F5F9", "on-secondary-fixed-variant": "#004b73", "on-error": "#ffffff", "success-subtle": "#ECFDF5", "surface-container-high": "#CBD5E1", "primary-fixed-dim": "#b0c6ff", "on-primary-container": "#ffffff", "surface-container-highest": "#94A3B8", "tertiary": "#001c19", "info-subtle": "#E0F2FE", "secondary-fixed": "#cce5ff", "warning-subtle": "#FFFBEB", "secondary-fixed-dim": "#93ccff", "warning": "#D97706", "background": "#faf8ff", "surface-bright": "#faf8ff", "on-surface": "#131a33", "tertiary-container": "#00332e", "inverse-surface": "#282f49", "outline": "#757780", "secondary": "#006398", "error": "#DC2626", "on-secondary-fixed": "#001d31", "primary": "#0F2A5C", "secondary-container": "#5bb8fe", "surface-container-lowest": "#FFFFFF", "tertiary-fixed": "#89f5e7", "surface": "#F8FAFC", "on-tertiary-container": "#2ea498", "on-primary-fixed": "#001945", "success": "#059669", "tertiary-fixed-dim": "#6bd8cb", "primary-fixed": "#d9e2ff", "accent-gold": "#D97706", "border-strong": "#CBD5E1", "surface-dim": "#d2d9fa", "inverse-primary": "#b0c6ff", "surface-variant": "#dbe1ff", "on-tertiary-fixed": "#00201d", "outline-variant": "#c5c6d1", "surface-tint": "#0F2A5C", "primary-container": "#183b7e", "border-subtle": "#E2E8F0", "on-primary-fixed-variant": "#2e4578", "on-error-container": "#93000a", "on-surface-variant": "#44464f", "on-secondary-container": "#00476e", "inverse-on-surface": "#eff0ff", "on-tertiary-fixed-variant": "#005049", "on-secondary": "#ffffff", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "on-background": "#131a33" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "1.5rem", "space-lg": "1.5rem", "margin-mobile": "1rem", "gutter-mobile": "0.75rem", "gutter": "1rem", "space-md": "1rem", "space-xl": "2rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, "fontFamily": { "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"] }, "fontSize": { "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "700" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 flex items-center justify-between gap-6"><div class="flex items-center gap-3 shrink-0"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-[24px]">verified</span></div><div><span class="font-headline-sm text-headline-sm text-on-surface block leading-none">Kerala Services</span><span class="font-label-sm text-label-sm text-primary tracking-wide block uppercase mt-0.5">Verified Portal</span></div></div><div class="hidden md:flex flex-1 max-w-md items-center"><div class="relative w-full"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span><input class="w-full h-11 pl-10 pr-24 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Search verified providers, trades, or districts..." type="text"/><div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center"><button class="flex items-center gap-1 px-2 py-1 rounded bg-surface text-on-surface-variant font-label-sm text-label-sm shadow-[0_1px_3px_rgba(0,0,0,0.04)]" type="button"><span class="material-symbols-outlined text-[14px] text-primary">location_on</span><span>Kerala</span></button></div></div></div><nav class="hidden lg:flex items-center gap-2"><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="home-and-categories" href="#">Home &amp; Categories</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="providers-directory" href="#">Providers Directory</a><a aria-current="page" class="px-3 py-2 transition-all bg-primary text-on-primary font-semibold rounded-lg shadow-sm" data-path="companies-directory" href="#">Companies Directory</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="bookings-and-appointments" href="#">Bookings &amp; Appointments</a></nav><div class="flex items-center gap-3 shrink-0"><button aria-label="Notifications" class="w-10 h-10 rounded-lg bg-surface-container-low hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors relative" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary"></span></button><div class="flex items-center gap-3 pl-2"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="hidden xl:block text-left"><span class="block font-label-sm text-label-sm text-on-surface leading-tight">Ashwin Nair</span><span class="block font-body-sm text-body-sm text-on-surface-variant leading-none">Kochi, KL</span></div></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-container-low via-surface to-surface pb-12 pt-8">
+<div class="absolute -right-24 -top-24 h-96 w-96 rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 top-1/2 h-80 w-80 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-8">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-variant text-primary font-label-sm text-label-sm uppercase tracking-wider mb-4 shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">domain_verification</span>
+<span class="font-semibold text-primary">REGISTERED SERVICE HUBS • KERALA STATE DIRECTORY</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mb-3">
+            Service Companies &amp; Agency Hubs
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Government-audited trade agencies, licensed service firms, and certified contractor fleets dispatching verified professionals across Kerala districts.
+          </p>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<button class="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg transition-all shadow-sm" id="quickInquiryBtn">
+<span class="material-symbols-outlined text-[18px] text-primary">download</span>
+<span>Export Directory</span>
+</button>
+<a class="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all shadow-md" href="#agencyOnboarding">
+<span class="material-symbols-outlined text-[20px]">add_business</span>
+<span>Register Agency</span>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-2">
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border border-border-subtle flex items-center gap-4 transition-transform hover:-translate-y-0.5">
+<div class="w-12 h-12 rounded-lg bg-surface-variant flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[26px]">corporate_fare</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-headline-lg text-headline-lg text-on-surface">7</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Active</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Registered Agencies</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border border-border-subtle flex items-center gap-4 transition-transform hover:-translate-y-0.5">
+<div class="w-12 h-12 rounded-lg bg-surface-variant flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">badge</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-headline-lg text-headline-lg text-on-surface">9</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">On-Duty</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Vetted Field Techs</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border border-border-subtle flex items-center gap-4 transition-transform hover:-translate-y-0.5">
+<div class="w-12 h-12 rounded-lg bg-surface-variant flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">gavel</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-headline-lg text-headline-lg text-on-surface">100%</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Insured</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Kerala GST &amp; Audited</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border border-border-subtle flex items-center gap-4 transition-transform hover:-translate-y-0.5">
+<div class="w-12 h-12 rounded-lg bg-surface-variant flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[26px]">bolt</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-headline-lg text-headline-lg text-on-surface">&lt;30</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Mins</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Avg. Dispatch Response</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-7xl mx-auto px-6 w-full -mt-4 relative z-20 pb-16">
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-md border border-border-subtle mb-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-center">
+<div class="lg:col-span-6 relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-[22px]">search</span>
+<input class="w-full h-12 pl-12 pr-4 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="searchInput" placeholder="Search by company name, registration ID (e.g., C001), or town..." type="text"/>
+</div>
+<div class="lg:col-span-3">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-primary text-[20px]">category</span>
+<select class="w-full h-12 pl-10 pr-9 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer shadow-inner" id="categoryFilter">
+<option value="all">All Service Categories</option>
+<option value="AC &amp; Climate Services">AC &amp; Climate Services</option>
+<option value="Electrical &amp; Installation">Electrical &amp; Installation</option>
+<option value="Plumbing &amp; Pipe Fitting">Plumbing &amp; Pipe Fitting</option>
+<option value="Deep Cleaning &amp; Sanitization">Deep Cleaning &amp; Sanitization</option>
+<option value="Private Tutoring &amp; Academics">Private Tutoring &amp; Academics</option>
+<option value="Full Home Maintenance &amp; Multi-Service Care">Full Home Maintenance Fleet</option>
+<option value="Technical Repair &amp; Appliances">Technical Repair &amp; Appliances</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+<div class="lg:col-span-3 flex items-center gap-3">
+<div class="relative flex-1">
+<select class="w-full h-12 pl-4 pr-9 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer shadow-inner" id="sortFilter">
+<option value="rating">Sort: Top Rated</option>
+<option value="techs">Sort: Most Technicians</option>
+<option value="name">Sort: Alphabetical (A-Z)</option>
+<option value="code">Sort: Registration Code</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-[20px]">sort</span>
+</div>
+<div class="flex items-center p-1 bg-surface-container-low rounded-xl shrink-0">
+<button aria-label="Grid View" class="w-10 h-10 rounded-lg bg-surface-container-lowest text-primary flex items-center justify-center shadow-sm" id="viewGridBtn">
+<span class="material-symbols-outlined text-[20px]">grid_view</span>
+</button>
+<button aria-label="List View" class="w-10 h-10 rounded-lg text-on-surface-variant hover:text-on-surface flex items-center justify-center" id="viewListBtn">
+<span class="material-symbols-outlined text-[20px]">view_list</span>
+</button>
+</div>
+</div>
+</div>
+<div class="mt-5 pt-5 border-t border-surface-container-high/60 flex items-center gap-2 overflow-x-auto no-scrollbar">
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0 uppercase tracking-wider mr-2">Kerala Hubs:</span>
+<button class="town-chip active px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-primary text-on-primary transition-all shadow-sm shrink-0" data-town="all">
+          All Kerala (7)
+        </button>
+<button class="town-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-variant hover:text-primary transition-all shrink-0" data-town="Cherthala">
+          Cherthala
+        </button>
+<button class="town-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-variant hover:text-primary transition-all shrink-0" data-town="Ferok">
+          Ferok
+        </button>
+<button class="town-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-variant hover:text-primary transition-all shrink-0" data-town="Vambayam">
+          Vambayam
+        </button>
+<button class="town-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-variant hover:text-primary transition-all shrink-0" data-town="Chalakudy">
+          Chalakudy
+        </button>
+<button class="town-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-variant hover:text-primary transition-all shrink-0" data-town="Edpally">
+          Edpally
+        </button>
+<button class="town-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-variant hover:text-primary transition-all shrink-0" data-town="Alappuzha">
+          Alappuzha
+        </button>
+<button class="town-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-variant hover:text-primary transition-all shrink-0" data-town="Kozhikode">
+          Kozhikode
+        </button>
+</div>
+</div>
+<div class="flex items-center justify-between mb-6">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Registered Kerala Agencies</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm" id="resultsCountBadge">
+          7 Showing
+        </span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">verified_user</span>
+<span>All listed entities have verified KL trade licenses</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="agenciesContainer">
+<article class="agency-card bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col justify-between group" data-category="AC &amp; Climate Services" data-id="C001" data-name="Coolcare AC Services" data-rating="4.8" data-reviews="34" data-techcount="1" data-town="Cherthala">
+<div>
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-xl bg-surface-variant flex items-center justify-center text-primary group-hover:scale-105 transition-transform shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">mode_fan</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold mb-1">C001</span>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    Verified Agency
+                  </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.8</span>
+<span class="text-on-surface-variant text-[11px]">(34)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors leading-tight mb-1.5">
+            Coolcare AC Services
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Certified residential &amp; inverter cooling systems, duct repair, gas recharging, and energy audits.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-variant text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">hvac</span>
+              AC &amp; Climate Services
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+              Cherthala, Alappuzha
+            </span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  RN
+                </div>
+</div>
+<div class="leading-tight">
+<span class="block font-label-md text-label-md text-on-surface font-medium">1 Professional listed</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Riyan (PR001) • Certified Specialist</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high/60 flex items-center gap-2.5">
+<a class="flex-1 h-11 px-3 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" href="tel:+914782800100">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Contact Agency</span>
+</a>
+<button class="flex-1 h-11 px-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="openTechniciansModal('Coolcare AC Services', 'C001', [{'id':'PR001','name':'Riyan','trade':'HVAC Senior Specialist','exp':'7 Yrs','status':'Available'}])">
+<span class="material-symbols-outlined text-[18px]">engineering</span>
+<span>View Technicians</span>
+</button>
+</div>
+</article>
+<article class="agency-card bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col justify-between group" data-category="Electrical &amp; Installation" data-id="C002" data-name="Bright Spark Electrician" data-rating="4.9" data-reviews="52" data-techcount="3" data-town="Ferok">
+<div>
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-xl bg-surface-variant flex items-center justify-center text-primary group-hover:scale-105 transition-transform shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">bolt</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold mb-1">C002</span>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    Verified Agency
+                  </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.9</span>
+<span class="text-on-surface-variant text-[11px]">(52)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors leading-tight mb-1.5">
+            Bright Spark Electrician
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            High &amp; low voltage wiring, inverter setups, smart automation panels, and commercial load balancing.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-variant text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">electrical_services</span>
+              Electrical &amp; Installation
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+              Ferok, Kozhikode
+            </span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  AS
+                </div>
+<div class="w-7 h-7 rounded-full bg-primary-container flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  RP
+                </div>
+<div class="w-7 h-7 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface font-label-sm text-label-sm shadow-xs">
+                  ST
+                </div>
+</div>
+<div class="leading-tight">
+<span class="block font-label-md text-label-md text-on-surface font-medium">3 Professionals listed</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Arif S, Rahul P, Shamil T</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high/60 flex items-center gap-2.5">
+<a class="flex-1 h-11 px-3 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" href="tel:+914952400200">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Contact Agency</span>
+</a>
+<button class="flex-1 h-11 px-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="openTechniciansModal('Bright Spark Electrician', 'C002', [{'id':'PR002','name':'Arif S','trade':'Licensed Wireman (A Grade)','exp':'9 Yrs','status':'Available'},{'id':'PR006','name':'Rahul P','trade':'Solar &amp; Inverter Engineer','exp':'5 Yrs','status':'Dispatched'},{'id':'PR009','name':'Shamil T','trade':'Industrial Electrical Tech','exp':'6 Yrs','status':'Available'}])">
+<span class="material-symbols-outlined text-[18px]">engineering</span>
+<span>View Technicians</span>
+</button>
+</div>
+</article>
+<article class="agency-card bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col justify-between group" data-category="Plumbing &amp; Pipe Fitting" data-id="C003" data-name="Aqua Fix Plumbing Services" data-rating="4.7" data-reviews="28" data-techcount="2" data-town="Vambayam">
+<div>
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-xl bg-surface-variant flex items-center justify-center text-primary group-hover:scale-105 transition-transform shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">plumbing</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold mb-1">C003</span>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    Verified Agency
+                  </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.7</span>
+<span class="text-on-surface-variant text-[11px]">(28)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors leading-tight mb-1.5">
+            Aqua Fix Plumbing Services
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Pipeline leakage detection, motorized booster pumps, sanitary fixtures, and overhead tank systems.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-variant text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">water_drop</span>
+              Plumbing &amp; Pipe Fitting
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+              Vambayam, TVM
+            </span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  AS
+                </div>
+<div class="w-7 h-7 rounded-full bg-primary-container flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  AS
+                </div>
+</div>
+<div class="leading-tight">
+<span class="block font-label-md text-label-md text-on-surface font-medium">2 Professionals listed</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Afrin S (PR003), Arun S (PR008)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high/60 flex items-center gap-2.5">
+<a class="flex-1 h-11 px-3 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" href="tel:+914712500300">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Contact Agency</span>
+</a>
+<button class="flex-1 h-11 px-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="openTechniciansModal('Aqua Fix Plumbing Services', 'C003', [{'id':'PR003','name':'Afrin S','trade':'Master Sanitary Fitter','exp':'8 Yrs','status':'Available'},{'id':'PR008','name':'Arun S','trade':'Pressure Pump Tech','exp':'4 Yrs','status':'Available'}])">
+<span class="material-symbols-outlined text-[18px]">engineering</span>
+<span>View Technicians</span>
+</button>
+</div>
+</article>
+<article class="agency-card bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col justify-between group" data-category="Deep Cleaning &amp; Sanitization" data-id="C004" data-name="Shinepro Home Cleaning" data-rating="4.6" data-reviews="19" data-techcount="1" data-town="Chalakudy">
+<div>
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-xl bg-surface-variant flex items-center justify-center text-primary group-hover:scale-105 transition-transform shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">cleaning_services</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold mb-1">C004</span>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    Verified Agency
+                  </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.6</span>
+<span class="text-on-surface-variant text-[11px]">(19)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors leading-tight mb-1.5">
+            Shinepro Home Cleaning
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Post-construction scrubbing, villa sanitization, mechanized upholstery cleaning, and pest shielding.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-variant text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">sanitizer</span>
+              Deep Cleaning &amp; Sanitization
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+              Chalakudy, Thrissur
+            </span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  JV
+                </div>
+</div>
+<div class="leading-tight">
+<span class="block font-label-md text-label-md text-on-surface font-medium">1 Professional listed</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Junaid V (PR004) • Team Lead</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high/60 flex items-center gap-2.5">
+<a class="flex-1 h-11 px-3 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" href="tel:+914802600400">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Contact Agency</span>
+</a>
+<button class="flex-1 h-11 px-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="openTechniciansModal('Shinepro Home Cleaning', 'C004', [{'id':'PR004','name':'Junaid V','trade':'Industrial Sanitation Lead','exp':'6 Yrs','status':'Available'}])">
+<span class="material-symbols-outlined text-[18px]">engineering</span>
+<span>View Technicians</span>
+</button>
+</div>
+</article>
+<article class="agency-card bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col justify-between group" data-category="Private Tutoring &amp; Academics" data-id="C005" data-name="Smart Learn Tutors" data-rating="4.9" data-reviews="41" data-techcount="1" data-town="Edpally">
+<div>
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-xl bg-surface-variant flex items-center justify-center text-primary group-hover:scale-105 transition-transform shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">school</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold mb-1">C005</span>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    Verified Agency
+                  </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.9</span>
+<span class="text-on-surface-variant text-[11px]">(41)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors leading-tight mb-1.5">
+            Smart Learn Tutors
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Certified home instructors for Kerala State &amp; CBSE syllabi, engineering mathematics, and science labs.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-variant text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">menu_book</span>
+              Private Tutoring &amp; Academics
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+              Edpally, Ernakulam
+            </span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  SS
+                </div>
+</div>
+<div class="leading-tight">
+<span class="block font-label-md text-label-md text-on-surface font-medium">1 Professional listed</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Shanavas S (PR005) • Lead Instructor</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high/60 flex items-center gap-2.5">
+<a class="flex-1 h-11 px-3 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" href="tel:+914842700500">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Contact Agency</span>
+</a>
+<button class="flex-1 h-11 px-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="openTechniciansModal('Smart Learn Tutors', 'C005', [{'id':'PR005','name':'Shanavas S','trade':'Senior Physics &amp; Math Faculty','exp':'11 Yrs','status':'Available'}], 'Faculty')">
+<span class="material-symbols-outlined text-[18px]">person_pin</span>
+<span>View Faculty</span>
+</button>
+</div>
+</article>
+<article class="agency-card bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col justify-between group" data-category="Full Home Maintenance &amp; Multi-Service Care" data-id="C006" data-name="Kerala Home Services" data-rating="4.8" data-reviews="65" data-techcount="5" data-town="Alappuzha">
+<div>
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-xl bg-surface-variant flex items-center justify-center text-primary group-hover:scale-105 transition-transform shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">home_repair_service</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold mb-1">C006</span>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    Verified Agency
+                  </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.8</span>
+<span class="text-on-surface-variant text-[11px]">(65)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors leading-tight mb-1.5">
+            Kerala Home Services
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            End-to-end villa upkeep: masonry, painting, roof waterproofing, carpentry, and electrical safety audits.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-variant text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">handyman</span>
+              Full Home Maintenance
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+              Alappuzha
+            </span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[18px]">groups</span>
+</div>
+<div class="leading-tight">
+<span class="block font-label-md text-label-md text-on-surface font-medium">Multi-Service Partner / Fleet</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">District-wide rapid dispatch squad</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high/60 flex items-center gap-2.5">
+<a class="flex-1 h-11 px-3 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" href="tel:+914772800600">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Contact Agency</span>
+</a>
+<button class="flex-1 h-11 px-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="openTechniciansModal('Kerala Home Services', 'C006', [{'id':'FL-01','name':'Manoj Varghese','trade':'Civil &amp; Waterproofing Supervisor','exp':'14 Yrs','status':'Available'},{'id':'FL-02','name':'Deepak K','trade':'Senior Painter &amp; Finisher','exp':'8 Yrs','status':'Available'},{'id':'FL-03','name':'Faizal B','trade':'Master Carpenter','exp':'10 Yrs','status':'Dispatched'}], 'Team')">
+<span class="material-symbols-outlined text-[18px]">groups</span>
+<span>View Team</span>
+</button>
+</div>
+</article>
+<article class="agency-card bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col justify-between group" data-category="Technical Repair &amp; Appliances" data-id="C007" data-name="Malabar Technical Services" data-rating="4.7" data-reviews="38" data-techcount="1" data-town="Kozhikode">
+<div>
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-xl bg-surface-variant flex items-center justify-center text-primary group-hover:scale-105 transition-transform shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">precision_manufacturing</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold mb-1">C007</span>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    Verified Agency
+                  </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md shadow-xs">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.7</span>
+<span class="text-on-surface-variant text-[11px]">(38)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors leading-tight mb-1.5">
+            Malabar Technical Services
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Component-level PCB repairs, refrigeration diagnostics, washing machines, and microwave electronics.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-variant text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] text-primary">microwave</span>
+              Technical Repair &amp; Appliances
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+              Kozhikode Town
+            </span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-sm text-label-sm shadow-xs">
+                  AM
+                </div>
+</div>
+<div class="leading-tight">
+<span class="block font-label-md text-label-md text-on-surface font-medium">1 Professional listed</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Anwar M (PR007) • Master Tech</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high/60 flex items-center gap-2.5">
+<a class="flex-1 h-11 px-3 rounded-lg bg-surface-container-low hover:bg-surface-variant text-primary border border-surface-container-high font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" href="tel:+914952800700">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Contact Agency</span>
+</a>
+<button class="flex-1 h-11 px-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="openTechniciansModal('Malabar Technical Services', 'C007', [{'id':'PR007','name':'Anwar M','trade':'Micro-electronics &amp; PCB Engineer','exp':'12 Yrs','status':'Available'}])">
+<span class="material-symbols-outlined text-[18px]">engineering</span>
+<span>View Technicians</span>
+</button>
+</div>
+</article>
+</div>
+<div class="hidden py-16 text-center bg-surface-container-lowest rounded-2xl shadow-sm my-6 border border-border-subtle" id="noResultsBlock">
+<div class="w-16 h-16 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant mx-auto mb-4">
+<span class="material-symbols-outlined text-[32px]">search_off</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">No Matching Agencies Found</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mx-auto mb-6">
+        We couldn't find any registered agencies matching your current search parameters and district filters.
+      </p>
+<button class="px-5 py-2.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg shadow-sm" onclick="resetAllFilters()">
+        Reset All Filters
+      </button>
+</div>
+<div class="mt-12 bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-border-subtle">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-surface-container-high/60">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Registered Hub Distribution</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live overview of certified technical fleets and active manpower across Kerala</p>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-variant text-primary font-label-sm text-label-sm font-semibold self-start md:self-auto">
+          Statewide Verification 100% Complete
+        </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-variant flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block font-semibold">Police &amp; Trade License Vetted</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Zero unauthorized contractor listings permitted</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-variant flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">payments</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block font-semibold">Transparent Rate Cards</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Kerala Gazette compliant minimum service fees</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-variant flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block font-semibold">Dispute Redressal Cell</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">48-hour customer grievance arbitration warranty</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12 rounded-3xl bg-primary p-8 md:p-12 text-on-primary shadow-2xl relative overflow-hidden" id="agencyOnboarding">
+<div class="absolute right-0 bottom-0 translate-x-12 translate-y-12 w-96 h-96 rounded-full bg-white/5 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 -top-20 w-80 h-80 rounded-full bg-primary-container/40 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-on-primary font-label-sm text-label-sm uppercase tracking-wider mb-4 backdrop-blur-sm border border-white/10">
+<span class="material-symbols-outlined text-[16px]">how_to_reg</span>
+<span class="font-semibold tracking-wider">AGENCY PARTNER NETWORK</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-primary mb-3">
+            Are you a licensed Kerala contracting firm or agency?
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary/85 leading-relaxed">
+            Partner with Kerala Services Portal to dispatch verified technicians across 14 districts, access government enterprise tenders, and automate verified technician roster management.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 shrink-0">
+<button class="px-6 py-3.5 rounded-xl bg-surface-container-lowest hover:bg-surface text-primary font-label-lg text-label-lg font-bold transition-all shadow-lg flex items-center justify-center gap-2 group" onclick="openRegistrationModal()">
+<span>Register Agency</span>
+<span class="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<a class="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-on-primary font-label-lg text-label-lg transition-all flex items-center justify-center gap-2 backdrop-blur-sm border border-white/15" href="tel:18004250000">
+<span class="material-symbols-outlined text-[20px]">headset_mic</span>
+<span>Toll-Free Helpline</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-inverse-surface/60 backdrop-blur-sm hidden" id="techniciansModal">
+<div class="bg-surface-container-lowest w-full max-w-xl rounded-2xl shadow-2xl overflow-hidden border border-border-subtle animate-in fade-in zoom-in-95 duration-200">
+<div class="p-6 bg-surface-container-low flex items-center justify-between border-b border-surface-container-high/60">
+<div>
+<span class="px-2 py-0.5 rounded bg-surface-variant text-primary font-label-sm text-label-sm font-semibold" id="modalAgencyCode">C000</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 font-semibold" id="modalAgencyName">Agency Technicians</h3>
+</div>
+<button class="w-9 h-9 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant flex items-center justify-center transition-colors" onclick="closeTechniciansModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="p-6">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold" id="modalListTitle">Listed Field Personnel</span>
+<span class="font-body-sm text-body-sm text-primary font-semibold flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary"></span> Verified Badge Active
+          </span>
+</div>
+<div class="space-y-3 max-h-72 overflow-y-auto pr-1" id="modalTechsList">
+</div>
+</div>
+<div class="p-4 bg-surface-container-low border-t border-surface-container-high/60 flex items-center justify-end gap-3">
+<button class="px-4 py-2 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" onclick="closeTechniciansModal()">
+          Close Window
+        </button>
+<button class="px-4 py-2 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md shadow-sm transition-colors" onclick="alert('Routing to Kerala Department Dispatch Interface for verified personnel booking.'); closeTechniciansModal();">
+          Book Direct Assignment
+        </button>
+</div>
+</div>
+</div>
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-inverse-surface/60 backdrop-blur-sm hidden" id="registerModal">
+<div class="bg-surface-container-lowest w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden border border-border-subtle">
+<div class="p-6 bg-surface-container-low flex items-center justify-between border-b border-surface-container-high/60">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[18px]">domain_add</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Agency Onboarding</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kerala State Trade Registry</p>
+</div>
+</div>
+<button class="w-9 h-9 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant flex items-center justify-center" onclick="closeRegistrationModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="p-6 space-y-4" onsubmit="handleRegisterSubmit(event)">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Company / Firm Name</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary" placeholder="e.g., Cochin Electrical Works Ltd." required="" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Kerala District</label>
+<select class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary">
+<option>Ernakulam</option>
+<option>Thiruvananthapuram</option>
+<option>Kozhikode</option>
+<option>Alappuzha</option>
+<option>Thrissur</option>
+<option>Kollam</option>
+<option>Kannur</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">GST / License No.</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary" placeholder="32AAAAA0000A1Z5" required="" type="text"/>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Primary Trade Category</label>
+<select class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary">
+<option>AC &amp; Climate Services</option>
+<option>Electrical &amp; Installation</option>
+<option>Plumbing &amp; Pipe Fitting</option>
+<option>Deep Cleaning &amp; Sanitization</option>
+<option>Private Tutoring &amp; Academics</option>
+<option>Full Home Maintenance &amp; Multi-Service Care</option>
+<option>Technical Repair &amp; Appliances</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Official Contact Phone</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary" placeholder="+91 98470 00000" required="" type="tel"/>
+</div>
+<div class="pt-2">
+<button class="w-full h-11 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-colors shadow-sm font-semibold" type="submit">
+            Submit Verification Request
+          </button>
+</div>
+</form>
+</div>
+</div>
+<script>
+    (function() {
+      const searchInput = document.getElementById('searchInput');
+      const categoryFilter = document.getElementById('categoryFilter');
+      const sortFilter = document.getElementById('sortFilter');
+      const townChips = document.querySelectorAll('.town-chip');
+      const cards = Array.from(document.querySelectorAll('.agency-card'));
+      const container = document.getElementById('agenciesContainer');
+      const noResults = document.getElementById('noResultsBlock');
+      const resultsCountBadge = document.getElementById('resultsCountBadge');
+      const viewGridBtn = document.getElementById('viewGridBtn');
+      const viewListBtn = document.getElementById('viewListBtn');
+
+      let currentTown = 'all';
+
+      function applyFilters() {
+        const query = searchInput.value.toLowerCase().trim();
+        const category = categoryFilter.value;
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const id = card.getAttribute('data-id').toLowerCase();
+          const name = card.getAttribute('data-name').toLowerCase();
+          const town = card.getAttribute('data-town').toLowerCase();
+          const cat = card.getAttribute('data-category');
+
+          const matchesQuery = !query || id.includes(query) || name.includes(query) || town.includes(query);
+          const matchesCategory = (category === 'all') || (cat === category);
+          const matchesTown = (currentTown === 'all') || (card.getAttribute('data-town').toLowerCase() === currentTown.toLowerCase());
+
+          if (matchesQuery && matchesCategory && matchesTown) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        resultsCountBadge.textContent = visibleCount + ' Showing';
+        if (visibleCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
+        }
+      }
+
+      function applySorting() {
+        const sortBy = sortFilter.value;
+        const sorted = cards.slice().sort((a, b) => {
+          if (sortBy === 'rating') {
+            return parseFloat(b.getAttribute('data-rating')) - parseFloat(a.getAttribute('data-rating'));
+          } else if (sortBy === 'techs') {
+            return parseInt(b.getAttribute('data-techcount'), 10) - parseInt(a.getAttribute('data-techcount'), 10);
+          } else if (sortBy === 'name') {
+            return a.getAttribute('data-name').localeCompare(b.getAttribute('data-name'));
+          } else if (sortBy === 'code') {
+            return a.getAttribute('data-id').localeCompare(b.getAttribute('data-id'));
+          }
+          return 0;
+        });
+
+        sorted.forEach(card => container.appendChild(card));
+      }
+
+      searchInput.addEventListener('input', applyFilters);
+      categoryFilter.addEventListener('change', applyFilters);
+      sortFilter.addEventListener('change', () => {
+        applySorting();
+        applyFilters();
+      });
+
+      townChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          townChips.forEach(c => {
+            c.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            c.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+          });
+          chip.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+          chip.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+          currentTown = chip.getAttribute('data-town');
+          applyFilters();
+        });
+      });
+
+      viewListBtn.addEventListener('click', () => {
+        container.classList.remove('md:grid-cols-2', 'lg:grid-cols-3');
+        container.classList.add('grid-cols-1');
+        viewListBtn.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+        viewListBtn.classList.remove('text-on-surface-variant');
+        viewGridBtn.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+        viewGridBtn.classList.add('text-on-surface-variant');
+      });
+
+      viewGridBtn.addEventListener('click', () => {
+        container.classList.remove('grid-cols-1');
+        container.classList.add('md:grid-cols-2', 'lg:grid-cols-3');
+        viewGridBtn.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+        viewGridBtn.classList.remove('text-on-surface-variant');
+        viewListBtn.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+        viewListBtn.classList.add('text-on-surface-variant');
+      });
+
+      window.resetAllFilters = function() {
+        searchInput.value = '';
+        categoryFilter.value = 'all';
+        sortFilter.value = 'rating';
+        currentTown = 'all';
+        townChips.forEach(c => {
+          if (c.getAttribute('data-town') === 'all') {
+            c.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+            c.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+          } else {
+            c.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            c.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+          }
+        });
+        applySorting();
+        applyFilters();
+      };
+
+      document.getElementById('quickInquiryBtn').addEventListener('click', () => {
+        alert('Downloading verified Kerala Agency Directory register (PDF / CSV format).');
+      });
+    })();
+
+    function openTechniciansModal(agencyName, agencyCode, techs, customLabel) {
+      document.getElementById('modalAgencyName').textContent = agencyName;
+      document.getElementById('modalAgencyCode').textContent = agencyCode;
+      document.getElementById('modalListTitle').textContent = customLabel ? 'Listed ' + customLabel : 'Listed Field Personnel';
+      
+      const listEl = document.getElementById('modalTechsList');
+      listEl.innerHTML = '';
+
+      techs.forEach(t => {
+        const item = document.createElement('div');
+        item.className = 'p-3 rounded-xl bg-surface-container-low flex items-center justify-between border border-border-subtle';
+        item.innerHTML = `
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-sm text-label-sm font-semibold">
+              ${t.name.split(' ').map(n=>n[0]).join('').substring(0,2)}
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="font-label-lg text-label-lg text-on-surface font-semibold">${t.name}</span>
+                <span class="px-1.5 py-0.2 rounded bg-surface-variant text-primary font-label-sm text-[10px] font-semibold">${t.id}</span>
+              </div>
+              <span class="font-body-sm text-body-sm text-on-surface-variant block">${t.trade} • ${t.exp} Exp</span>
+            </div>
+          </div>
+          <span class="px-2 py-0.5 rounded text-[11px] font-semibold ${t.status === 'Available' ? 'bg-primary/10 text-primary' : 'bg-surface-container-high text-on-surface-variant'}">
+            ${t.status}
+          </span>
+        `;
+        listEl.appendChild(item);
+      });
+
+      document.getElementById('techniciansModal').classList.remove('hidden');
+    }
+
+    function closeTechniciansModal() {
+      document.getElementById('techniciansModal').classList.add('hidden');
+    }
+
+    function openRegistrationModal() {
+      document.getElementById('registerModal').classList.remove('hidden');
+    }
+
+    function closeRegistrationModal() {
+      document.getElementById('registerModal').classList.add('hidden');
+    }
+
+    function handleRegisterSubmit(e) {
+      e.preventDefault();
+      alert('Verification application submitted successfully. The Kerala State Trade Directorate will audit credentials within 2 business days.');
+      closeRegistrationModal();
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-auto"><div class="max-w-7xl mx-auto px-6 py-12"><div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8"><div><div class="flex items-center gap-2 mb-3"><div class="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-on-primary"><span class="material-symbols-outlined text-[18px]">verified</span></div><span class="font-headline-sm text-headline-sm text-on-surface font-bold">Kerala Services</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">The authoritative marketplace for verified home, structural, and technical professionals across Kerala.</p></div><div><h4 class="font-label-lg text-label-lg text-on-surface mb-3 uppercase tracking-wider font-semibold">Directory</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="providers-directory" href="#">Electrical &amp; Solar</a></li><li><a class="hover:text-primary transition-colors" data-path="providers-directory" href="#">Plumbing &amp; Sanitary</a></li><li><a class="hover:text-primary transition-colors" data-path="providers-directory" href="#">Civil &amp; Masonry</a></li><li><a class="hover:text-primary transition-colors" data-path="companies-directory" href="#">Companies Directory</a></li></ul></div><div><h4 class="font-label-lg text-label-lg text-on-surface mb-3 uppercase tracking-wider font-semibold">Districts</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Ernakulam / Kochi</a></li><li><a class="hover:text-primary transition-colors" href="#">Thiruvananthapuram</a></li><li><a class="hover:text-primary transition-colors" href="#">Kozhikode</a></li><li><a class="hover:text-primary transition-colors" href="#">Thrissur</a></li></ul></div><div><h4 class="font-label-lg text-label-lg text-on-surface mb-3 uppercase tracking-wider font-semibold">Verification &amp; Safety</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-3">Every listed technician is vetted with verified trade license and credentials.</p><div class="flex items-center gap-2 text-primary font-label-md text-label-md font-semibold"><span class="material-symbols-outlined text-[18px]">shield_with_heart</span><span>100% Certified Network</span></div></div></div><div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><span>© 2025 Kerala Services Portal. All rights reserved.</span><div class="flex items-center gap-6"><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" href="#">Support Helpline</a></div></div></div></footer></body></html>

@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Kerala Services Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed": "#00201d", "background": "#faf8ff", "on-secondary-fixed": "#001d31", "surface-variant": "#dbe1ff", "surface-container-low": "#F1F5F9", "surface-tint": "#475d92", "on-tertiary-container": "#2ea498", "on-secondary": "#ffffff", "inverse-surface": "#282f49", "primary-container": "#0F2A5C", "surface-dim": "#d2d9fa", "tertiary-fixed": "#89f5e7", "surface-container-high": "#CBD5E1", "tertiary": "#001c19", "outline": "#757780", "secondary-fixed-dim": "#93ccff", "tertiary-fixed-dim": "#6bd8cb", "on-tertiary-fixed-variant": "#005049", "inverse-primary": "#b0c6ff", "surface-container": "#ebedff", "on-error": "#ffffff", "error-container": "#ffdad6", "surface": "#F8FAFC", "on-primary-container": "#ffffff", "on-surface": "#131a33", "tertiary-container": "#00332e", "on-primary-fixed-variant": "#2e4578", "secondary-container": "#5bb8fe", "on-secondary-container": "#00476e", "error": "#DC2626", "on-surface-variant": "#44464f", "on-error-container": "#93000a", "on-primary-fixed": "#001945", "on-background": "#131a33", "inverse-on-surface": "#eff0ff", "on-secondary-fixed-variant": "#004b73", "primary-fixed-dim": "#b0c6ff", "surface-container-highest": "#94A3B8", "surface-container-lowest": "#ffffff", "surface-bright": "#faf8ff", "outline-variant": "#c5c6d1", "secondary": "#006398", "on-primary": "#ffffff", "primary": "#0F2A5C", "secondary-fixed": "#cce5ff", "primary-fixed": "#d9e2ff", "on-tertiary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "1.5rem", "space-lg": "1.5rem", "margin-mobile": "1rem", "gutter-mobile": "0.75rem", "gutter": "1rem", "space-md": "1rem", "space-xl": "2rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, "fontFamily": { "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"] }, "fontSize": { "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "700" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 flex items-center justify-between gap-6"><div class="flex items-center gap-3 shrink-0"><div class="w-10 h-10 rounded-xl bg-[#0F2A5C] flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-[24px]">verified</span></div><div><span class="font-headline-sm text-headline-sm text-on-surface block leading-none">Kerala Services</span><span class="font-label-sm text-label-sm text-[#0F2A5C] tracking-wide block uppercase mt-0.5">Verified Portal</span></div></div><div class="hidden md:flex flex-1 max-w-md items-center"><div class="relative w-full"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span><input class="w-full h-11 pl-10 pr-24 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-[#0F2A5C]" placeholder="Search verified providers, trades, or districts..." type="text"/><div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center"><button class="flex items-center gap-1 px-2 py-1 rounded bg-surface text-on-surface-variant font-label-sm text-label-sm shadow-[0_1px_3px_rgba(0,0,0,0.04)]" type="button"><span class="material-symbols-outlined text-[14px] text-[#0F2A5C]">location_on</span><span class="">Kerala</span></button></div></div></div><nav class="hidden lg:flex items-center gap-2" data-active-classes="bg-[#0F2A5C] text-white font-semibold rounded-lg"><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="home-and-categories" href="#">Home &amp; Categories</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="providers-directory" href="#">Providers Directory</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg bg-[#0F2A5C] text-white font-semibold shadow-sm transition-all" data-path="bookings-and-appointments" href="#">Bookings &amp; Appointments</a></nav><div class="flex items-center gap-3 shrink-0"><button aria-label="Notifications" class="w-10 h-10 rounded-lg bg-surface-container-low hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors relative" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary"></span></button><div class="flex items-center gap-3 pl-2"><div class="w-8 h-8 rounded-full bg-[#0F2A5C] flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="hidden xl:block text-left"><span class="block font-label-sm text-label-sm text-on-surface leading-tight">Ashwin Nair</span><span class="block font-body-sm text-body-sm text-on-surface-variant leading-none">Kochi, KL</span></div></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Subtle decorative ambient background element -->
+<div class="relative w-full max-w-7xl mx-auto px-6 py-8">
+<div class="absolute top-0 right-10 w-96 h-96 bg-[#0F2A5C]/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-40 left-10 w-80 h-80 bg-secondary/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- Header Section with Distinct Typography and Quick Action -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-surface-container-high text-[#0F2A5C] font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#0F2A5C] animate-pulse"></span>
+            Dispatch Console • Central Kerala Zone
+          </span>
+<span class="text-outline text-body-sm font-body-sm">| Updated 2 mins ago</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Bookings &amp; Appointments Dispatch</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-1">Live order tracking, scheduling time-slots, and customer payment reconciliation across vetted service specialists.</p>
+</div>
+<!-- Quick Operational Controls -->
+<div class="flex items-center gap-3 shrink-0">
+<button class="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-label-lg text-label-lg transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px] text-[#0F2A5C]">download</span>
+<span class="">Export Manifest</span>
+</button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-lg text-label-lg shadow-sm transition-all transform active:scale-95" type="button">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+<span class="">Manual Dispatch</span>
+</button>
+</div>
+</div>
+<!-- Summary Metric Cards (4 in a row on Desktop) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+<!-- Card 1: Total Bookings -->
+<div class="p-5 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Total Dispatches</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-[#0F2A5C]">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-on-surface">6</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> +2 today
+            </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1">Across 3 active districts</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-[#0F2A5C]/20 group-hover:bg-[#0F2A5C] transition-colors"></div>
+</div>
+<!-- Card 2: Pending Confirmation -->
+<div class="p-5 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Pending Action</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-amber-600">
+<span class="material-symbols-outlined text-[20px]">pending_actions</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-on-surface">3</span>
+<span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-label-sm text-label-sm">Requires Review</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1">SLA target: ≤ 15 mins confirmation</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-amber-400 group-hover:bg-amber-500 transition-colors"></div>
+</div>
+<!-- Card 3: Paid Bookings -->
+<div class="p-5 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Settled &amp; Paid</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-on-surface">1</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">₹1,250 Reconciled</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1">UPI &amp; Netbanking verified</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-secondary group-hover:bg-secondary-fixed-dim transition-colors"></div>
+</div>
+<!-- Card 4: Unpaid Invoices -->
+<div class="p-5 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Unpaid / Escrow Pending</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[20px]">receipt_long</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-on-surface">5</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Post-job Due</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1">Pay on completion or cash on visit</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-outline-variant group-hover:bg-outline transition-colors"></div>
+</div>
+</div>
+<!-- Filter & Search Toolbar -->
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm mb-6 flex flex-col xl:flex-row items-stretch xl:items-center justify-between gap-4">
+<!-- Status Pills -->
+<div class="flex flex-wrap items-center gap-1.5" id="status-filter-container">
+<button class="filter-status-btn px-3 py-1.5 rounded-lg bg-[#0F2A5C] text-white font-label-sm text-label-sm shadow-sm transition-all" data-filter="all" type="button">All (6)</button>
+<button class="filter-status-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-all" data-filter="pending" type="button">Pending (3)</button>
+<button class="filter-status-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-all" data-filter="confirmed" type="button">Confirmed (1)</button>
+<button class="filter-status-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-all" data-filter="contacted" type="button">Contacted (1)</button>
+<button class="filter-status-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-all" data-filter="completed" type="button">Completed (1)</button>
+</div>
+<!-- Payment & Search Controls -->
+<div class="flex flex-wrap items-center gap-3">
+<!-- Payment Filter Dropdown -->
+<div class="relative min-w-[140px]">
+<select class="w-full h-10 pl-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none appearance-none cursor-pointer" id="payment-filter">
+<option value="all">All Payments</option>
+<option value="paid">Paid (1)</option>
+<option value="unpaid">Unpaid (5)</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+<!-- Date Range Filter -->
+<div class="flex items-center gap-2 h-10 px-3 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-[#0F2A5C]">calendar_month</span>
+<span class="">Today, 24 Oct</span>
+</div>
+<!-- Search Input -->
+<div class="relative flex-1 sm:w-64">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span>
+<input class="w-full h-10 pl-9 pr-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-[#0F2A5C]" id="booking-search" placeholder="Search ID or Technician..." type="text"/>
+</div>
+</div>
+</div>
+<!-- Main Dispatch Stage: Responsive Split Layout (List + Interactive Inspection Drawer) -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+<!-- Dispatches Cards / List (8 cols on XL) -->
+<div class="xl:col-span-8 flex flex-col gap-3.5" id="bookings-container">
+<!-- Booking #A001 -->
+<div class="booking-row rounded-xl bg-surface-container-lowest p-5 shadow-sm hover:shadow-md transition-all cursor-pointer relative ring-2 ring-[#0F2A5C]" data-address="Flat 4B, Emerald Heights, Pattom, Thiruvananthapuram" data-customer="Anand K. Menon" data-district="Trivandrum (Pattom Ward)" data-fee="₹450" data-id="A001" data-message="i need to fix my bathroom tap" data-payment="Unpaid" data-phone="+91 98471 22910" data-priority="Standard" data-status="Contacted" data-tech-id="PR003" data-tech-name="Afrin S" data-tech-trade="Certified Plumber &amp; Pipe Specialist" data-time="1:00 PM - 2:00 PM">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-[#0F2A5C]">
+<span class="material-symbols-outlined text-[24px]">plumbing</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Booking #A001</span>
+<span class="px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Contacted
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Unpaid</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="text-[#0F2A5C] font-semibold">Tech: PR003</span>
+<span class="">•</span>
+<span class="">Afrin S (Plumber)</span>
+<span class="">•</span>
+<span class="flex items-center gap-0.5 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">location_on</span> Trivandrum</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-2 bg-surface-container-low px-3 py-1.5 rounded-lg inline-block">
+<span class="font-semibold text-[#0F2A5C]">Note:</span> “i need to fix my bathroom tap”
+                </p>
+</div>
+</div>
+<div class="flex md:flex-col items-center md:items-end justify-between md:justify-center shrink-0 gap-2">
+<div class="flex items-center gap-1 text-on-surface font-label-md text-label-md bg-surface-container-low px-2.5 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-[#0F2A5C]">schedule</span>
+<span class="">1:00 PM - 2:00 PM</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="inspect-btn px-3 py-1.5 rounded bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+                  Update Status
+                </button>
+<a class="flex items-center gap-1 px-3 py-1.5 rounded bg-[#0F2A5C] text-white font-label-sm text-label-sm hover:bg-[#0a1d42] transition-colors" href="tel:+919847122910">
+<span class="material-symbols-outlined text-[14px]">call</span> Call Afrin
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Booking #A002 -->
+<div class="booking-row rounded-xl bg-surface-container-lowest p-5 shadow-sm hover:shadow-md transition-all cursor-pointer relative" data-address="Karthika Nilayam, Near KSRTC Stand, Alappuzha" data-customer="Sreelakshmi V." data-district="Alappuzha (Kalarcode)" data-fee="₹850" data-id="A002" data-message="my ac is not working" data-payment="Unpaid" data-phone="+91 94473 11802" data-priority="High" data-status="Confirmed" data-tech-id="PR001" data-tech-name="Riyan" data-tech-trade="HVAC &amp; AC Master Technician" data-time="4:00 PM - 5:00 PM">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-[#0F2A5C]">
+<span class="material-symbols-outlined text-[24px]">mode_fan</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Booking #A002</span>
+<span class="px-2.5 py-0.5 rounded-full bg-blue-50 text-[#0F2A5C] font-label-sm text-label-sm flex items-center gap-1 font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#0F2A5C]"></span> Confirmed
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Unpaid</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="text-[#0F2A5C] font-semibold">Tech: PR001</span>
+<span class="">•</span>
+<span class="">Riyan (AC Cleaner)</span>
+<span class="">•</span>
+<span class="flex items-center gap-0.5 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">location_on</span> Alappuzha</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-2 bg-surface-container-low px-3 py-1.5 rounded-lg inline-block">
+<span class="font-semibold text-[#0F2A5C]">Note:</span> “my ac is not working”
+                </p>
+</div>
+</div>
+<div class="flex md:flex-col items-center md:items-end justify-between md:justify-center shrink-0 gap-2">
+<div class="flex items-center gap-1 text-on-surface font-label-md text-label-md bg-surface-container-low px-2.5 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-[#0F2A5C]">schedule</span>
+<span class="">4:00 PM - 5:00 PM</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="inspect-btn px-3 py-1.5 rounded bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+                  Schedule Details
+                </button>
+<button class="px-3 py-1.5 rounded bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-sm text-label-sm shadow-sm transition-colors" type="button">
+                  Collect Payment
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Booking #A003 -->
+<div class="booking-row rounded-xl bg-surface-container-lowest p-5 shadow-sm hover:shadow-md transition-all cursor-pointer relative" data-address="Avenue 12, Stadium Link Road, Kaloor, Kochi" data-customer="Deepak George" data-district="Ernakulam (Kaloor)" data-fee="₹600" data-id="A003" data-message="i have a doubt in some subjects to clear it" data-payment="Unpaid" data-phone="+91 97455 88204" data-priority="Standard" data-status="Pending" data-tech-id="PR005" data-tech-name="Shanavas S" data-tech-trade="Senior Science &amp; Maths Tutor" data-time="1:00 PM - 3:00 PM">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-amber-700">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Booking #A003</span>
+<span class="px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> Pending
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Unpaid</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="text-[#0F2A5C] font-semibold">Tech: PR005</span>
+<span class="">•</span>
+<span class="">Shanavas S (Tutor)</span>
+<span class="">•</span>
+<span class="flex items-center gap-0.5 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">location_on</span> Ernakulam</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-2 bg-surface-container-low px-3 py-1.5 rounded-lg inline-block">
+<span class="font-semibold text-[#0F2A5C]">Note:</span> “i have a doubt in some subjects to clear it”
+                </p>
+</div>
+</div>
+<div class="flex md:flex-col items-center md:items-end justify-between md:justify-center shrink-0 gap-2">
+<div class="flex items-center gap-1 text-on-surface font-label-md text-label-md bg-surface-container-low px-2.5 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-[#0F2A5C]">schedule</span>
+<span class="">1:00 PM - 3:00 PM</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1.5 rounded bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-sm text-label-sm transition-colors" type="button">
+                  Accept &amp; Confirm
+                </button>
+<button class="px-3 py-1.5 rounded bg-surface-container hover:bg-error-container hover:text-on-error-container text-on-surface-variant font-label-sm text-label-sm transition-colors" type="button">
+                  Decline
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Booking #A004 -->
+<div class="booking-row rounded-xl bg-surface-container-lowest p-5 shadow-sm hover:shadow-md transition-all cursor-pointer relative" data-address="House 19, Parambil Bazar, Mavoor Road, Calicut" data-customer="Farhan Basheer" data-district="Kozhikode (Mavoor Road)" data-fee="₹1,250" data-id="A004" data-message="need instalation of two ceiling fans" data-payment="Paid" data-phone="+91 99612 04519" data-priority="Completed" data-status="Completed" data-tech-id="PR002" data-tech-name="Arif S" data-tech-trade="Licensed Wireman &amp; Electrical Contractor" data-time="3:00 PM - 5:00 PM">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-[#0F2A5C]">
+<span class="material-symbols-outlined text-[24px]">electric_meter</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Booking #A004</span>
+<span class="px-2.5 py-0.5 rounded-full bg-blue-50 text-[#0F2A5C] font-label-sm text-label-sm flex items-center gap-1 font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#0F2A5C]"></span> Completed
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-blue-100 text-[#0F2A5C] font-label-sm text-label-sm flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[12px]">verified</span> Paid ₹1,250
+                  </span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="text-[#0F2A5C] font-semibold">Tech: PR002</span>
+<span class="">•</span>
+<span class="">Arif S (Electrician)</span>
+<span class="">•</span>
+<span class="flex items-center gap-0.5 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">location_on</span> Kozhikode</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-2 bg-surface-container-low px-3 py-1.5 rounded-lg inline-block">
+<span class="font-semibold text-[#0F2A5C]">Note:</span> “need instalation of two ceiling fans”
+                </p>
+</div>
+</div>
+<div class="flex md:flex-col items-center md:items-end justify-between md:justify-center shrink-0 gap-2">
+<div class="flex items-center gap-1 text-on-surface font-label-md text-label-md bg-surface-container-low px-2.5 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-[#0F2A5C]">schedule</span>
+<span class="">3:00 PM - 5:00 PM</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1.5 rounded bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-sm text-label-sm flex items-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">receipt</span> Invoice
+                </button>
+<button class="px-3 py-1.5 rounded bg-surface-container text-[#0F2A5C] font-semibold font-label-sm text-label-sm hover:bg-surface-variant transition-colors" type="button">
+                  Review
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Booking #A005 -->
+<div class="booking-row rounded-xl bg-surface-container-lowest p-5 shadow-sm hover:shadow-md transition-all cursor-pointer relative" data-address="Manor 11, Golf Links Road, Kowdiar, Trivandrum" data-customer="Maya Varma" data-district="Trivandrum (Kowdiar)" data-fee="₹450" data-id="A005" data-message="I need to fix my bathroom tap" data-payment="Unpaid" data-phone="+91 94460 33418" data-priority="Standard" data-status="Pending" data-tech-id="PR003" data-tech-name="Afrin S" data-tech-trade="Certified Plumber &amp; Pipe Specialist" data-time="1:00 PM - 2:00 PM">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-amber-700">
+<span class="material-symbols-outlined text-[24px]">plumbing</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Booking #A005</span>
+<span class="px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> Pending
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Unpaid</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="text-[#0F2A5C] font-semibold">Tech: PR003</span>
+<span class="">•</span>
+<span class="">Afrin S (Plumber)</span>
+<span class="">•</span>
+<span class="flex items-center gap-0.5 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">location_on</span> Trivandrum</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-2 bg-surface-container-low px-3 py-1.5 rounded-lg inline-block">
+<span class="font-semibold text-[#0F2A5C]">Note:</span> “I need to fix my bathroom tap”
+                </p>
+</div>
+</div>
+<div class="flex md:flex-col items-center md:items-end justify-between md:justify-center shrink-0 gap-2">
+<div class="flex items-center gap-1 text-on-surface font-label-md text-label-md bg-surface-container-low px-2.5 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-[#0F2A5C]">schedule</span>
+<span class="">1:00 PM - 2:00 PM</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="inspect-btn px-3 py-1.5 rounded bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+                  Review Request
+                </button>
+<button class="px-3 py-1.5 rounded bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-sm text-label-sm transition-colors" type="button">
+                  Assign / Confirm
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Booking #A006 -->
+<div class="booking-row rounded-xl bg-surface-container-lowest p-5 shadow-sm hover:shadow-md transition-all cursor-pointer relative" data-address="Beach Road Villa, Mararikulam North, Alappuzha" data-customer="Joseph Kurian" data-district="Alappuzha (Mararikulam)" data-fee="₹750" data-id="A006" data-message="i need to install a washing machine" data-payment="Unpaid" data-phone="+91 98951 55670" data-priority="Standard" data-status="Pending" data-tech-id="PR001" data-tech-name="Riyan" data-tech-trade="Appliance Setup &amp; HVAC Tech" data-time="5:00 PM - 6:00 PM">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-amber-700">
+<span class="material-symbols-outlined text-[24px]">local_laundry_service</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Booking #A006</span>
+<span class="px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 font-label-sm text-label-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> Pending
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Unpaid</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="text-[#0F2A5C] font-semibold">Tech: PR001</span>
+<span class="">•</span>
+<span class="">Riyan (Appliance Tech)</span>
+<span class="">•</span>
+<span class="flex items-center gap-0.5 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">location_on</span> Alappuzha</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-2 bg-surface-container-low px-3 py-1.5 rounded-lg inline-block">
+<span class="font-semibold text-[#0F2A5C]">Note:</span> “i need to install a washing machine”
+                </p>
+</div>
+</div>
+<div class="flex md:flex-col items-center md:items-end justify-between md:justify-center shrink-0 gap-2">
+<div class="flex items-center gap-1 text-on-surface font-label-md text-label-md bg-surface-container-low px-2.5 py-1 rounded">
+<span class="material-symbols-outlined text-[16px] text-[#0F2A5C]">schedule</span>
+<span class="">5:00 PM - 6:00 PM</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="inspect-btn px-3 py-1.5 rounded bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+                  Review Request
+                </button>
+<button class="px-3 py-1.5 rounded bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-sm text-label-sm transition-colors" type="button">
+                  Assign / Confirm
+                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Inspection Drawer / Live Preview Panel (4 cols on XL) -->
+<div class="xl:col-span-4 sticky top-24">
+<div class="rounded-2xl bg-surface-container-lowest p-6 shadow-md transition-all" id="inspection-panel">
+<!-- Panel Header -->
+<div class="flex items-center justify-between pb-4 border-b border-surface-container-high/60 mb-5">
+<div>
+<span class="font-label-sm text-label-sm text-[#0F2A5C] uppercase tracking-wider block font-semibold">Detailed Inspector</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold" id="inspect-booking-id">Booking #A001</h2>
+</div>
+<span class="px-3 py-1 rounded-full bg-blue-50 text-blue-700 font-label-sm text-label-sm font-semibold" id="inspect-status-badge">Contacted</span>
+</div>
+<!-- Technician Spotlight Card -->
+<div class="p-4 rounded-xl bg-surface-container-low mb-5">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block mb-2">Assigned Specialist</span>
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-[#0F2A5C] flex items-center justify-center text-white font-bold text-headline-sm">
+<span class="" id="inspect-tech-avatar">A</span>
+</div>
+<div class="min-w-0">
+<h4 class="font-headline-sm text-headline-sm text-on-surface truncate" id="inspect-tech-name">Afrin S</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate" id="inspect-tech-trade">Certified Plumber &amp; Pipe Specialist</p>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-label-sm text-label-sm text-[#0F2A5C] font-bold" id="inspect-tech-id">PR003</span>
+<span class="inline-flex items-center text-[#0F2A5C] text-body-sm font-body-sm gap-0.5 font-medium">
+<span class="material-symbols-outlined text-[14px]">verified</span> Vetted Pro
+                  </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Service Time & Location Block -->
+<div class="space-y-4 mb-6">
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-[#0F2A5C] shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Scheduled Slot</span>
+<span class="font-body-lg text-body-lg text-on-surface font-semibold" id="inspect-time">1:00 PM - 2:00 PM (Today)</span>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-[#0F2A5C] shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Service Location</span>
+<span class="font-body-sm text-body-sm text-on-surface block font-medium" id="inspect-address">Flat 4B, Emerald Heights, Pattom, Thiruvananthapuram</span>
+<span class="font-label-sm text-label-sm text-[#0F2A5C] font-medium" id="inspect-district">Trivandrum (Pattom Ward)</span>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-[#0F2A5C] shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">person</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Customer Contact</span>
+<span class="font-body-sm text-body-sm text-on-surface block font-semibold" id="inspect-customer">Anand K. Menon</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono" id="inspect-phone">+91 98471 22910</span>
+</div>
+</div>
+</div>
+<!-- Customer Problem Message Card -->
+<div class="p-3.5 rounded-lg bg-surface-container mb-6"><div class="flex items-center justify-between mb-1"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Customer Job Brief</span><button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-sm text-label-sm font-semibold transition-colors shadow-sm" type="button"><span class="material-symbols-outlined text-[14px]">add</span><span class="">+ Add Note</span></button></div><p class="font-body-md text-body-md text-on-surface italic" id="inspect-message">“i need to fix my bathroom tap”</p></div>
+<!-- Financial Reconciliation Breakdown -->
+<div class="p-4 rounded-xl bg-surface-container-high/40 mb-6">
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Estimated Service Fee</span>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold" id="inspect-fee">₹450</span>
+</div>
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Platform Escrow Fee</span>
+<span class="font-label-lg text-label-lg text-[#0F2A5C] font-semibold">Waived (Promotional)</span>
+</div>
+<div class="pt-2 border-t border-surface-container flex justify-between items-center">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">Settlement Status</span>
+<span class="px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-surface font-semibold" id="inspect-payment">Unpaid</span>
+</div>
+</div>
+<!-- Inspection Drawer Action CTAs -->
+<div class="grid grid-cols-2 gap-3">
+<button class="w-full py-2.5 rounded-lg bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-md text-label-md transition-all shadow-sm font-semibold" id="panel-quick-action" type="button">Update Time Slot</button>
+<button class="w-full py-2.5 rounded-lg bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all shadow-sm font-semibold" id="panel-call-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">call</span> Direct Dial
+            </button>
+</div>
+<button class="w-full mt-2.5 py-2.5 rounded-lg bg-[#0F2A5C] hover:bg-[#0a1d42] text-white font-label-sm text-label-sm font-semibold flex items-center justify-center gap-1.5 transition-colors shadow-sm" type="button"><span class="material-symbols-outlined text-[16px]">add_circle</span><span class="">+ Add Spare Part / Work Item</span></button><button class="w-full mt-2.5 py-2 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+            Reassign to Different Technician
+          </button>
+</div>
+</div>
+</div>
+<!-- Live Kerala Service District Map & Hub Summary -->
+<div class="mt-12 p-6 rounded-2xl bg-surface-container-lowest shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+<div>
+<span class="font-label-sm text-label-sm text-[#0F2A5C] uppercase tracking-wider font-semibold">Geographic Dispatch Zone</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Central &amp; South Kerala Active Coverage</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live cluster concentration of active dispatches in Thiruvananthapuram, Alappuzha, Kochi, and Calicut.</p>
+</div>
+<div class="flex items-center gap-4 text-body-sm font-body-sm text-on-surface-variant">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded-full bg-[#0F2A5C]"></span> <span class="">Normal Traffic</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded-full bg-amber-500"></span> <span class="">High Demand</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+<!-- Interactive Static Map Integration via data-location -->
+<div class="lg:col-span-2 h-72 rounded-xl overflow-hidden shadow-inner relative" data-location="Kochi, Kerala, India">
+<!-- Fallback visual backdrop -->
+<div class="absolute inset-0 bg-surface-container flex items-center justify-center">
+<div class="text-center p-6">
+<span class="material-symbols-outlined text-[36px] text-[#0F2A5C] mb-2">map</span>
+<span class="font-headline-sm text-headline-sm text-on-surface block">Kochi Hub • Kerala Dispatch Matrix</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Synchronized with Kerala GPS Infrastructure</span>
+</div>
+</div>
+</div>
+<!-- Metric Cluster Breakdown -->
+<div class="flex flex-col gap-3">
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-[#0F2A5C]">
+<span class="material-symbols-outlined text-[20px]">location_city</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface block font-semibold">Trivandrum Sector</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2 Active Dispatches</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-on-surface font-mono">100% On-Time</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-[#0F2A5C]">
+<span class="material-symbols-outlined text-[20px]">water</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface block font-semibold">Alappuzha Coast</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2 Active Dispatches</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-on-surface font-mono">Slot Confirmed</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-[#0F2A5C]">
+<span class="material-symbols-outlined text-[20px]">hub</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface block font-semibold">Ernakulam &amp; Calicut</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2 Active Dispatches</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-blue-100 text-[#0F2A5C] font-label-sm text-label-sm font-semibold">1 Completed</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Inline Dispatch Panel Micro-Interactions Script -->
+<script>
+  (function () {
+    const bookingRows = document.querySelectorAll('.booking-row');
+    const searchInput = document.getElementById('booking-search');
+    const statusButtons = document.querySelectorAll('.filter-status-btn');
+    const paymentSelect = document.getElementById('payment-filter');
+
+    // Drawer Elements
+    const inspectBookingId = document.getElementById('inspect-booking-id');
+    const inspectStatusBadge = document.getElementById('inspect-status-badge');
+    const inspectTechAvatar = document.getElementById('inspect-tech-avatar');
+    const inspectTechName = document.getElementById('inspect-tech-name');
+    const inspectTechTrade = document.getElementById('inspect-tech-trade');
+    const inspectTechId = document.getElementById('inspect-tech-id');
+    const inspectTime = document.getElementById('inspect-time');
+    const inspectAddress = document.getElementById('inspect-address');
+    const inspectDistrict = document.getElementById('inspect-district');
+    const inspectCustomer = document.getElementById('inspect-customer');
+    const inspectPhone = document.getElementById('inspect-phone');
+    const inspectMessage = document.getElementById('inspect-message');
+    const inspectFee = document.getElementById('inspect-fee');
+    const inspectPayment = document.getElementById('inspect-payment');
+    const panelQuickAction = document.getElementById('panel-quick-action');
+    const panelCallBtn = document.getElementById('panel-call-btn');
+
+    let currentFilterStatus = 'all';
+
+    // Populate drawer with row data
+    function inspectBooking(row) {
+      bookingRows.forEach(r => r.classList.remove('ring-2', 'ring-[#0F2A5C]', 'bg-surface-container-low'));
+      row.classList.add('ring-2', 'ring-[#0F2A5C]');
+
+      const data = row.dataset;
+      inspectBookingId.textContent = 'Booking #' + data.id;
+      inspectStatusBadge.textContent = data.status;
+
+      // Status badge styling
+      if (data.status === 'Confirmed' || data.status === 'Completed') {
+        inspectStatusBadge.className = 'px-3 py-1 rounded-full bg-blue-50 text-[#0F2A5C] font-label-sm text-label-sm font-semibold';
+      } else if (data.status === 'Contacted') {
+        inspectStatusBadge.className = 'px-3 py-1 rounded-full bg-blue-50 text-blue-700 font-label-sm text-label-sm font-semibold';
+      } else {
+        inspectStatusBadge.className = 'px-3 py-1 rounded-full bg-amber-100 text-amber-800 font-label-sm text-label-sm font-semibold';
+      }
+
+      inspectTechAvatar.textContent = data.techName.charAt(0);
+      inspectTechName.textContent = data.techName;
+      inspectTechTrade.textContent = data.techTrade;
+      inspectTechId.textContent = data.techId;
+      inspectTime.textContent = data.time + ' (Today)';
+      inspectAddress.textContent = data.address;
+      inspectDistrict.textContent = data.district;
+      inspectCustomer.textContent = data.customer;
+      inspectPhone.textContent = data.phone;
+      inspectMessage.innerHTML = '&ldquo;' + data.message + '&rdquo;';
+      inspectFee.textContent = data.fee;
+      inspectPayment.textContent = data.payment;
+
+      if (data.payment === 'Paid') {
+        inspectPayment.className = 'px-2 py-0.5 rounded font-label-sm text-label-sm bg-blue-100 text-[#0F2A5C] font-semibold';
+      } else {
+        inspectPayment.className = 'px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container text-on-surface font-semibold';
+      }
+
+      panelCallBtn.onclick = function () {
+        window.location.href = 'tel:' + data.phone;
+      };
+
+      if (data.status === 'Completed') {
+        panelQuickAction.textContent = 'Download Receipt';
+      } else if (data.status === 'Pending') {
+        panelQuickAction.textContent = 'Accept & Confirm';
+      } else {
+        panelQuickAction.textContent = 'Update Time Slot';
+      }
+    }
+
+    // Attach row clicks
+    bookingRows.forEach(row => {
+      row.addEventListener('click', function () {
+        inspectBooking(this);
+      });
+    });
+
+    // Default select first item
+    if (bookingRows.length > 0) {
+      inspectBooking(bookingRows[0]);
+    }
+
+    // Filter Logic
+    function applyFilters() {
+      const searchVal = (searchInput.value || '').toLowerCase().trim();
+      const paymentVal = paymentSelect.value.toLowerCase();
+
+      bookingRows.forEach(row => {
+        const id = row.dataset.id.toLowerCase();
+        const tech = row.dataset.techName.toLowerCase();
+        const techId = row.dataset.techId.toLowerCase();
+        const status = row.dataset.status.toLowerCase();
+        const payment = row.dataset.payment.toLowerCase();
+
+        const matchesSearch = !searchVal || id.includes(searchVal) || tech.includes(searchVal) || techId.includes(searchVal);
+        const matchesStatus = currentFilterStatus === 'all' || status === currentFilterStatus;
+        const matchesPayment = paymentVal === 'all' || payment === paymentVal;
+
+        if (matchesSearch && matchesStatus && matchesPayment) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    // Status filter clicks
+    statusButtons.forEach(btn => {
+      btn.addEventListener('click', function () {
+        statusButtons.forEach(b => {
+          b.className = 'filter-status-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-all';
+        });
+        this.className = 'filter-status-btn px-3 py-1.5 rounded-lg bg-[#0F2A5C] text-white font-label-sm text-label-sm shadow-sm transition-all';
+        currentFilterStatus = this.dataset.filter;
+        applyFilters();
+      });
+    });
+
+    // Payment dropdown filter
+    paymentSelect.addEventListener('change', applyFilters);
+
+    // Search bar typing
+    searchInput.addEventListener('input', applyFilters);
+  })();
+</script></main><footer class="w-full bg-surface-container-low mt-auto"><div class="max-w-7xl mx-auto px-6 py-12"><div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8"><div><div class="flex items-center gap-2 mb-3"><div class="w-8 h-8 rounded-lg bg-[#0F2A5C] flex items-center justify-center text-on-primary"><span class="material-symbols-outlined text-[18px]">verified</span></div><span class="font-headline-sm text-headline-sm text-on-surface">Kerala Services</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">The authoritative marketplace for verified home, structural, and technical professionals across Kerala.</p></div><div><h4 class="font-label-lg text-label-lg text-on-surface mb-3 uppercase tracking-wider">Directory</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class=""><a class="hover:text-[#0F2A5C] transition-colors" data-path="providers-directory" href="#">Electrical &amp; Solar</a></li><li class=""><a class="hover:text-[#0F2A5C] transition-colors" data-path="providers-directory" href="#">Plumbing &amp; Sanitary</a></li><li class=""><a class="hover:text-[#0F2A5C] transition-colors" data-path="providers-directory" href="#">Civil &amp; Masonry</a></li><li class=""><a class="hover:text-[#0F2A5C] transition-colors" data-path="providers-directory" href="#">Carpentry &amp; Woodwork</a></li></ul></div><div><h4 class="font-label-lg text-label-lg text-on-surface mb-3 uppercase tracking-wider">Districts</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class=""><a class="hover:text-[#0F2A5C] transition-colors" href="#">Ernakulam / Kochi</a></li><li class=""><a class="hover:text-[#0F2A5C] transition-colors" href="#">Thiruvananthapuram</a></li><li class=""><a class="hover:text-[#0F2A5C] transition-colors" href="#">Kozhikode</a></li><li class=""><a class="hover:text-[#0F2A5C] transition-colors" href="#">Thrissur</a></li></ul></div><div><h4 class="font-label-lg text-label-lg text-on-surface mb-3 uppercase tracking-wider">Verification &amp; Safety</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-3">Every listed technician is vetted with verified trade license and credentials.</p><div class="flex items-center gap-2 text-[#0F2A5C] font-label-md text-label-md font-semibold"><span class="material-symbols-outlined text-[18px]">shield_with_heart</span><span class="">100% Certified Network</span></div></div></div><div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><span class="">© 2025 Kerala Services Portal. All rights reserved.</span><div class="flex items-center gap-6"><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" href="#">Support Helpline</a></div></div></div></footer>
+</body></html>
